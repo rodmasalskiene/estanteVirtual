@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="flex h-dvh w-full">
+      <section class="w-1/2 bg-library"></section>
+
+      <section
+        class="w-1/2 h-full bg-gradient-to-r from-brown-200 to-brown-300 flex justify-center"
+      >
+        <div
+          class="w-11/12 h-full flex flex-wrap flex-col content-center items-center space-y-20"
+        >
+          <div class="pt-10 w-full flex flex-col items-center">
+            <span class="text-5xl font-italiana">
+              Bem vindo a<br />
+              Estante Virtual!
+            </span>
+
+            <span class="font-italiana text-slate-200 text-2xl">
+              O seu acervo de livros online
+            </span>
+          </div>
+
+          <form action="" class="space-y-4 w-6/12">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="p-2.5 rounded-2xl w-full border border-black outline-none"
+              placeholder="Email"
+              required=""
+            />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              class="p-2.5 rounded-2xl w-full border border-black outline-none"
+              placeholder="Senha"
+              required=""
+            />
+            <button
+              type="submit"
+              class="p-2 rounded-2xl w-full border border-black outline-none bg-brown-300 text-white text-base"
+            >
+              Entrar
+            </button>
+            <p class="text-sm font-light text-gray-900">
+              Não tem uma conta?
+              <a
+                href="#"
+                class="font-medium text-primary-600 hover:underline hover:text-brown-300"
+              >
+                Registrar-se
+              </a>
+            </p>
+
+            <hr />
+            <p class="text-sm font-light text-slate-300 text-center">
+              <a
+                href="#"
+                class="font-medium text-primary-600 hover:underline hover:text-gray-300"
+              >
+                Pular por enquanto
+              </a>
+            </p>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
